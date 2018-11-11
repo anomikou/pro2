@@ -8,7 +8,7 @@ public class Main {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Please enter all the characteristics of the attributes. When finsh press 0");
+		System.out.println("Please enter all the characteristics of the attributes. When finish press space!");
 
 		ArrayList<String> titles = new ArrayList<String>();
 
@@ -18,7 +18,7 @@ public class Main {
 
 			t = input.nextLine();
 
-			if(t.equals("stop")) {
+			if(t.equals("")) {
 
 				break;
 
